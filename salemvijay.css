@@ -1,0 +1,679 @@
+
+
+		*
+		{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		
+		.header
+		{
+			width: 100%;
+			height: 42px;
+/*			background-color: gray;*/
+			border: 1px solid black;
+		}
+		.h1
+		{
+			width: 4%;
+			height: 40px;
+/*			background-color: red;*/
+			float: left;
+			border-right:1px solid black ;
+		}
+		.h2
+		{
+			width: 10%;
+			height: 40px;
+			float: left;
+			border-right: 1px solid black;
+			padding: 6px 1px 0px 2px;
+		}
+		.h3
+		{
+			width: 48%;
+			height: 40px;
+			float: left;
+			border-right: 1px solid black;
+			padding: 7px 1px 0px 2px;
+
+
+		}
+		.h4
+		{
+			width:13%;
+			height: 40px;
+			float: left;
+			border-right: 1px solid black;
+			padding: 9px 0px 7px 0px;
+		}
+		.h5
+		{
+			width: 4%;
+			height: 40px;
+			float: left;
+			border-right: 1px solid black;
+			padding: 6px 1px 5px 6px;
+		}
+        .h6
+        {
+        	width: 4%;
+        	height: 40px;
+        	float: left;
+        	border-right: 1px solid black;
+        	padding: 6px 1px 5px 6px;
+        }
+        .h7
+        {
+        	width: 4%;
+        	height: 40px;
+        	float: left;
+        	border-right: 1px solid black;
+        	padding: 6px 1px 5px 6px;
+        }
+        .h8
+        {
+        	width: 4%;
+        	height: 40px;
+        	float: left;
+        	border-right: 1px solid black;
+        	padding: 6px 1px 5px 6px;
+        }
+        .h9
+        {
+        	width: 7%;
+        	height: 40px;
+        	float: left;
+        	border-right: 1px solid black;
+            padding: 9px 1px 5px 6px;
+        }
+
+        .about
+        {
+
+        	width: 100%;
+        	height: 140px;
+        	border: 1px solid gray;
+
+        }
+        .a1
+        {
+        	width: 15%;
+        	height: 140px;
+         	padding-top:5px ;
+            padding-left:20px;
+        	float: left;
+/*        	background-color: yellow;*/
+        }
+        .a2
+        {
+
+        	width: 50%;
+        	height: 140px;
+     	    padding-top:20px;
+     	    line-height: 40PX;
+        	float: left;
+/*        	background-color:skyblue;*/
+
+        }
+        .a3
+        {
+
+        	width:30% ;
+        	height: 140px;
+        	float: right;
+/*        	padding-top: 15px;*/
+            padding:15px 0px 0px 150px;
+        	        
+        }
+        .menucontainer{
+        	width: 100%;
+        	height: 42px;
+        	float: left;
+/*       	background-color:blue;*/*/
+border-top:1px solid lightgray;
+      border-bottom:1px solid lightgray;
+        }
+    
+
+        
+        .menu ul li
+        {
+
+        	display: inline-block;
+        	list-style: none;
+        	float: left;
+/*       	padding: 15px 25px 0px 10px;*/
+
+        } 
+      
+    
+    .menu
+     {
+      width:85%;
+      height:42px;
+       float:left;
+      
+     }
+      .m2
+        {
+            width:10%;
+            height: 42px;
+            padding:  0px 10px 0px 0px ;
+            float: right;
+
+/*            background-color: yellow;*/
+           
+        }
+    .dropdown
+    {
+      display:flex;
+      list-style-type:none;
+      float:left;
+    }
+    .dropdown a 
+    {
+      display:inline-block;
+      width:132.2px;
+      color:black;
+      padding:12px 0px;
+      text-decoration:none;
+      text-align:center;
+      font-size:14px;
+    }
+   .dropdown a:hover
+    {
+      background-color:#9e6b22;
+      color:white;
+    }
+    .m2:hover
+    {
+      background-color:#9e6b22;
+      color:white; 
+    }
+
+    .dropdown1
+    {
+      display:none;
+      background-color:#f3b45b;
+      position:absolute;
+/*      width: 200px;*/
+/*      z-index:1;*/
+      
+    }
+    .dropdown1 a       
+    {
+        display: block;
+ list-style-type:none;
+    }
+    .maindrop:hover .dropdown1
+    {
+
+        display: block;
+    }
+    .dropdown li:nth-child(1):hover .dropdown1
+    {
+      display:block;
+    }
+       
+        #btn{
+        	padding-top:3px;
+            float: left;
+
+
+
+        }
+
+  
+        h3{
+        	
+        	text-align: right;
+        	float: right;
+        	padding-right:1em;
+        	padding-top:10px;
+        	padding-left:1px;
+
+        }
+        .banner
+        {
+
+        width: 100%;
+        height: 450px;
+/*       	background-color: gray;*/
+        }
+        .b1
+        {
+
+        	width: 100%;
+        	height: 400px;
+
+
+        }
+        .c1
+        {
+
+            width: 100%;
+            height: 29px !important;
+            position: relative;
+            opacity:0.5;
+
+        }
+/*
+        .google
+        {
+
+            width: 100%;
+            height: 50px;
+            background-color: yellow;
+        }*/
+
+       .g1
+        {
+
+            width: 100%;
+            height: 50px;
+/*            background-color: yellow;*/
+        }
+
+        .contant
+        {
+            width:100%;
+            height: 500px;
+/*            background-color:lightgray;*/
+        }
+        .contant1
+        {
+            width: 35%;
+            height: 400px;
+/*            background-color: blue;*/
+            float: left;
+            border: 1px solid black;
+            margin: 30px;
+            padding-top: 80px;
+        }
+        .contant2
+
+        {
+            width: 39%;
+            height: 370px;
+/*            background-color: red;*/
+            float: left;
+            border: 1px solid black;
+            margin: 30px 0px 0px 10px ;
+            padding-top: 30px;
+        }
+        .title1
+        {
+            width: 25%;
+            height: 19px;
+/*            background-color: green;*/
+            float: left;
+            font-size: 12px;
+            padding: 0px 0px 0px 18px;
+        }
+        .title2
+        {
+            width: 25%;
+            height: 15px;
+/*            background-color: gray;*/
+            float: left;
+            font-size: 12px;
+             padding: 0px 0px 0px 12px;
+        }
+        .title3
+        {
+            width: 50%;
+            height: 15px;
+/*            background-color: yellow;*/
+            float: left;
+            font-size: 12px;
+        }
+        .contant3
+        {
+            width: 16%;
+            height: 240px;
+/*            background-color: gray;*/
+            float: left;
+             border: 1px solid black;
+            margin: 30px 0px 0px 30px;
+            padding-top: 30px;
+        }
+
+
+         .district
+    {
+      width:100%;
+      height:590px;
+      background-color:white;
+    }
+    .admin,.glance,.department
+    {
+      width:31%;
+      height:550px;
+      float:left;
+      margin:20px 15px 15px 15px;
+       background-color:#f1f1f1;
+    }
+    .admin1,.admin2,.admin3,.admin4
+    {
+      width:98.6%;
+      height:115px;
+/*      background-color:pink;*/
+      float:left;
+      margin:3px;
+    }
+    
+    .glance
+    {
+      background-color:#f1f1f1;
+      padding:15px 10px 0px 10px;
+    }
+    .department
+    {
+      padding:15px 10px 0px 10px;
+      background-color:#f1f1f1;
+      list-style: none;
+    }
+    ul li
+    {
+    list-style-type: none;
+    }
+
+    .li
+    {
+     height: 57px;
+     width: 100%;
+    }
+    .li_img
+    {
+      float: left;
+      width: 50px;
+      height: 50px;
+      margin-right: 5px;
+      border-radius: 100%;
+     }
+    .lip
+     {
+        padding-top:14px;
+     }
+
+
+       .map
+     {
+        width:100%;
+        height:360px;
+/*        background-color:yellow;*/
+        padding-left:7px;
+     }
+     .map1
+     {
+        width:23%;
+        height:300px;
+/*        background-color:pink;*/
+        margin:12px;
+        float:left;
+       
+     }
+     .map2
+     {
+        width:23%;
+        height:300px;
+/*        background-color:pink;*/
+        margin:12px;
+        padding-left:23px;
+        float:left;
+     }
+     .map3
+     {
+        width:23%;
+        height:300px;
+/*        background-color:pink;*/
+        margin:12px;
+        float:left;
+     }
+  
+     .map4
+     {
+        width:23%;
+        height:345px;
+/*        background-color:pink;*/
+        margin:12px;
+        float:left;        
+     }
+      
+    ul li
+    {
+    list-style-type: none;
+    }
+
+    .list
+    {
+     height: 55px;
+     width: 100%;
+    }
+    .photo
+    {
+      float: left;
+      width: 40px;
+      height: 40px;
+      margin-top:10px;
+      margin-right: 6px;
+      border-radius: 15%;
+     }
+    .line
+     {
+        padding-top:20px;
+     }
+     
+
+
+     
+      .gallery
+     {
+        width:100%;
+        height:800px;
+/*        background-color:yellow;*/
+     }
+     .gallery1
+     {
+        width:50%;
+        height:800px;
+        background-color:#100e32;
+        float:left;
+        padding:35px 0px 0px 40px;
+     } 
+     .box1
+     {
+        width:100%;
+        height:50px;
+/*        background-color:green;*/
+        float:left;
+     }
+     .b1
+     {
+        width:33%;
+        height:50px;
+        background-color:white;
+        float:left;
+        padding-top:5px;
+     }
+     .b2
+     {
+        width:33%;
+        height:50px;
+/*        background-color:#077dbb;*/
+        color:#d8d4cf;
+        float:left;
+         padding-top:5px;
+     }
+    /* .b2:hover
+     {
+        background-color:white;
+        color:black;
+     }*/
+     .b3
+     {
+        width:100%;
+        height:230px;
+        background-color:white;
+        float:left;
+
+     }
+     .inside
+     {
+        width:95.5%;
+        height:190px;
+        background-color:grey;
+        float:left;
+        margin:20px 0px 0px 15px;
+     }
+   .inside1
+     {
+        width:100%;
+        height:50px;
+        float:left;        
+     }
+    .inside2,.inside3,.inside4
+     {
+        width:31%;
+        height:100px;
+        float:left;
+        margin:30px 3px 10px 10px;
+     }
+
+      .gallery2
+     {
+        width:50%;
+        height:800px;
+/*        background-color:darkred;*/
+        color:white;
+        float:right;
+     } 
+     .letters1
+     {
+        width:50%;
+        height:600px;
+        background-color:#100e32;
+        padding-left:23px;
+        float:left;
+        
+     }
+     .letters1 li
+     {
+        line-height:40px;
+     }
+     .letters2
+     {
+        width:50%;
+        height:600px;
+        background-color:#100e32;
+        float:left;
+        padding-top:83px;
+     }
+     .letters2 li
+     {
+        line-height:40px;
+     }
+      .letters3
+     {
+        width:50%;
+        height:200px;
+        background-color:#100e32;
+        padding-left:15px;
+        float:left;
+      }
+      .letters3 li
+     {
+        line-height:40px;
+     }
+     .letters4
+     {
+        width:50%;
+        height:200px;
+        background-color:#100e32;
+        float:left;
+        padding-top:54px;
+     }
+     .letters4 li
+     {
+        line-height:40px;
+     }
+
+    
+   
+       .flex
+     {
+        width:93%;
+        height:110px;
+        margin-left:45px;
+     }
+                                          
+     .feedback
+     {
+        width:100%;
+        height:60px;
+        background-color:#111111;
+        padding-left:500px;
+        color:white;
+     }
+     .feedback1
+     {
+        width:50%;
+        height:60px;
+/*        background-color:#111111;*/
+        color:white;
+        float:left;
+     }
+     
+     .feedback1 ul li
+     {  
+        padding:20px 5px;
+        text-align:center;
+        display:inline-block;
+        list-style-type:none;
+     }
+                                           
+     .copyrights
+     {
+        width:100%;
+        height:120px;
+        background-color:#0c0c0c;
+        color:white;
+        padding-top:20px;
+     }
+
+                                        
+     .last
+     {
+        width:100%;
+        height:80px;
+        background-color:#0c0c0c;
+        border-top:1px inset lightgray;
+     }
+     .last1
+     {
+        width:44%;
+        height:80px;
+/*        background-color:yellow;*/
+        padding:16px 0px 0px 477px;
+        float:left;
+     }
+     .last2
+     {
+        width:12%;
+        height:80px;
+/*        background-color:pink;*/
+        padding:16px 0px 0px 16px;
+        float:left;
+        border-left:1px inset lightgray;
+        border-right:1px inset lightgray;
+     }
+     .last3
+     {
+        width:44%;
+        height:80px;
+/*        background-color:darkred;*/
+        padding:16px 0px 0px 16px;
+        float:left;
+     }
